@@ -18,6 +18,10 @@ A modern, responsive web application for browsing and downloading high-quality v
 
 ## 🎬 Demo
 🚀 **Live Demo:** [Game-walls-using-RAWG-API](https://kingslayer458.github.io/Game-walls-using-RAWG-API/)
+
+![GameWalls UI](2.png)
+
+
 ### Animations
 - Smooth card hover effects with scale and shadow transitions
 - Fade-in animations when loading new wallpaper batches
