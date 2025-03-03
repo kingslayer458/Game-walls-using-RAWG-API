@@ -1,5 +1,5 @@
 # Game-walls-using-RAWG-API
-#DOWNLOAD NOT FIXED AND WILL BE FIXED SOON
+## DOWNLOAD BUTTON NOT WORKING AND WILL BE FIXED SOON
 # 🎮 GameWalls - Game Wallpapers Hub
 
 A modern, responsive web application for browsing and downloading high-quality video game wallpapers.
