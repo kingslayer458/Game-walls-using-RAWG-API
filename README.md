@@ -44,7 +44,7 @@ Game-walls-using-RAWG-API/
 ├── config.js          # Configuration variables
 └── README.md          # Project documentation
 ```
-### DOWNLOAD BUTTON NOT WORKING AND WILL BE FIXED SOON
+### ⚠️DOWNLOAD BUTTON NOT WORKING AND WILL BE FIXED SOON
 ## 🚀 Getting Started
 
 1. Clone the repository:
