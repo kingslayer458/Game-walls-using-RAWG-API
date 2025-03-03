@@ -38,7 +38,7 @@ A modern, responsive web application for browsing and downloading high-quality v
 ## 📋 Project Structure
 
 ```
-game-wallpapers-hub/
+Game-walls-using-RAWG-API/
 ├── index.html         # Main HTML structure
 ├── styles.css         # Styling and animations
 ├── script.js          # Application logic
@@ -76,8 +76,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Contact
 
-Project Link: [https://github.com/yourusername/game-wallpapers-hub](https://github.com/yourusername/game-wallpapers-hub)
+Project Link: [https://github.com/kingslayer458/Game-walls-using-RAWG-API](https://github.com/kingslayer458/Game-walls-using-RAWG-API)
 
 ---
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [C MANOJ KUMAR](https://github.com/kingslayer458)
