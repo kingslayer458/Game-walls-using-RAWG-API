@@ -4,7 +4,7 @@
 
 A modern, responsive web application for browsing and downloading high-quality video game wallpapers.
 
-![GameWalls Banner](/api/placeholder/800/200)
+![GameWalls Banner](1.png)
 
 ## ✨ Features
 
@@ -17,10 +17,7 @@ A modern, responsive web application for browsing and downloading high-quality v
 - **Real-time Updates**: Current date and time display
 
 ## 🎬 Demo
-
-### UI Overview
-![UI Demo](/api/placeholder/600/300)
-
+🚀 **Live Demo:** [Game-walls-using-RAWG-API](https://kingslayer458.github.io/Game-walls-using-RAWG-API/)
 ### Animations
 - Smooth card hover effects with scale and shadow transitions
 - Fade-in animations when loading new wallpaper batches
@@ -42,9 +39,6 @@ game-wallpapers-hub/
 ├── styles.css         # Styling and animations
 ├── script.js          # Application logic
 ├── config.js          # Configuration variables
-├── assets/            # Images and other static assets
-│   ├── wallpapers/    # Wallpaper images
-│   └── icons/         # Additional icons
 └── README.md          # Project documentation
 ```
 
@@ -52,121 +46,16 @@ game-wallpapers-hub/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/game-wallpapers-hub.git
+   git clone[https://github.com/kingslayer458/Game-walls-using-RAWG-API.git]
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd game-wallpapers-hub
+   cd Game-walls-using-RAWG-API
    ```
 
-3. Open `index.html` in your browser or use a local server:
-   ```bash
-   # Using Python's built-in server
-   python -m http.server
-   ```
-
-4. Visit `http://localhost:8000` in your browser
-
-## 💻 Development
-
-### CSS Animations
-
-The project includes various animations to enhance user experience:
-
-```css
-/* Example of card hover animation */
-.wallpaper-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.wallpaper-card:hover {
-  transform: translateY(-5px) scale(1.02);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-/* Loading spinner animation */
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-.loading-spinner {
-  animation: spin 1.5s linear infinite;
-}
-```
-
-### Modal Implementation
-
-```javascript
-// Example of modal display code
-function openModal(wallpaperId) {
-  const modal = document.getElementById('imageModal');
-  const modalContent = modal.querySelector('.modal-content');
-  
-  // Fetch wallpaper details
-  const wallpaper = getWallpaperById(wallpaperId);
-  
-  // Populate modal content
-  modalContent.innerHTML = `
-    <span class="close-modal">&times;</span>
-    <img src="${wallpaper.fullImage}" alt="${wallpaper.title}">
-    <div class="wallpaper-details">
-      <h2>${wallpaper.title}</h2>
-      <p>${wallpaper.description}</p>
-      <div class="wallpaper-meta">
-        <span>${wallpaper.category}</span>
-        <span>${wallpaper.resolution}</span>
-      </div>
-      <button class="download-btn">Download</button>
-    </div>
-  `;
-  
-  // Add event listeners
-  modalContent.querySelector('.close-modal').addEventListener('click', closeModal);
-  
-  // Display with animation
-  modal.style.display = 'flex';
-  setTimeout(() => {
-    modal.classList.add('show');
-  }, 10);
-}
-```
-
-## 📱 Responsive Design
-
-The application uses a responsive design approach with CSS Grid and media queries:
-
-```css
-/* Desktop layout */
-.wallpapers-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-}
-
-/* Tablet layout */
-@media (max-width: 1024px) {
-  .wallpapers-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* Mobile layout */
-@media (max-width: 768px) {
-  .wallpapers-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Small mobile layout */
-@media (max-width: 480px) {
-  .wallpapers-grid {
-    grid-template-columns: 1fr;
-  }
-}
-```
-
+3. Open `index.html` in your browser or use a local server
+   
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
